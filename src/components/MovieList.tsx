@@ -34,7 +34,7 @@ const PostList: React.FC = observer(() => {
                         <MovieCard movie={movie} />
                     </div>
                 ))}
-                {Array.from(new Array(3)).map((e, i) => (
+                {Array.from(new Array(2)).map((e, i) => (
                     <div className="wrapper" key={i}>
                         <div className="left-section">
                             <Skeleton className="image-skeleton" />
